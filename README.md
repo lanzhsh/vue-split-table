@@ -1,4 +1,4 @@
-> vue clock component
+> vue split table component
 ![](./split-table.gif)
 
 ## Install
@@ -70,7 +70,7 @@ npm install vue-split-table
 
     editData(data) {
       console.log("编辑所在行的值为", data);
-    }
+    },
 
     splitAdd(data) {
       console.log("新增所在行的值为", data);
@@ -87,3 +87,5 @@ npm install vue-split-table
   }
 </script>
 ```
+## project
+[项目中使用请戳](https://github.com/lanzhsh/vue-demo/blob/master/src/page/tableClassify/MergeTable.vue)
